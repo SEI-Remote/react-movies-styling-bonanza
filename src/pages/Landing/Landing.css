@@ -1,0 +1,7 @@
+.landing {
+  min-height: calc(100vh - 75px);
+  background-image: url(../../assets/landing.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
