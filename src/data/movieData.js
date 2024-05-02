@@ -95,49 +95,52 @@ export const movies = [
     "imageURL": "https://image.tmdb.org/t/p/w500/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg"
   },
   {
-    "_id": "662f30b8f2f787f09d18495a",
-    "title": "Scary Movie 3",
-    "releaseDate": "2003-10-24",
+    "_id": "662f392ef2f787f09d1855f2",
+    "title": "Scream",
+    "releaseDate": "1996-12-20",
     "genres": [
-      "Comedy"
+      "Crime",
+      "Horror",
+      "Mystery"
     ],
     "ratings": {
-      "imdb": 5.973
+      "imdb": 7.422,
+      "tmdb": 7.422
     },
-    "runtime": 84,
-    "revenue": 220700000,
-    "budget": 48000000,
-    "tagline": "Great trilogies come in threes.",
-    "popularity": 57.881,
-    "director": "David Zucker",
+    "runtime": 112,
+    "revenue": 173100000,
+    "budget": 14000000,
+    "tagline": "Someone's Taken Their Love Of Scary Movies One Step Too Far!",
+    "popularity": 84.134,
+    "director": "Wes Craven",
     "cast": [
       {
-        "name": "Anna Faris",
-        "character": "Cindy Campbell",
-        "photoUrl": "https://image.tmdb.org/t/p/w500/y3YKNr4qPPJZ9w4lR2a3yySKotd.jpg"
+        "name": "David Arquette",
+        "character": "Dewey Riley",
+        "photoUrl": "https://image.tmdb.org/t/p/w500/1C5sLNLNVZ3P8sMy7HUQ32IKdqX.jpg"
       },
       {
-        "name": "Simon Rex",
-        "character": "George",
-        "photoUrl": "https://image.tmdb.org/t/p/w500/swlyh3YQoaB4OAgVi6NSdojVeyZ.jpg"
+        "name": "Neve Campbell",
+        "character": "Sidney Prescott",
+        "photoUrl": "https://image.tmdb.org/t/p/w500/r2qzcPYrwHAgD5t9Ng5Ad3pROOw.jpg"
       },
       {
-        "name": "Anthony Anderson",
-        "character": "Mahalik",
-        "photoUrl": "https://image.tmdb.org/t/p/w500/reO1OjwFdtXmiO4LMDaBj6eatzK.jpg"
+        "name": "Courteney Cox",
+        "character": "Gale Weathers",
+        "photoUrl": "https://image.tmdb.org/t/p/w500/crsEIfA8JPuZNl5EIRvE14uSiMo.jpg"
       },
       {
-        "name": "Charlie Sheen",
-        "character": "Tom",
-        "photoUrl": "https://image.tmdb.org/t/p/w500/eHMe0jYsp6YBgyCDbgtheZrIHAy.jpg"
+        "name": "Matthew Lillard",
+        "character": "Stu Macher",
+        "photoUrl": "https://image.tmdb.org/t/p/w500/mIEKAfe0iC41RDXibbTy48LtNOi.jpg"
       },
       {
-        "name": "Regina Hall",
-        "character": "Brenda Meeks",
-        "photoUrl": "https://image.tmdb.org/t/p/w500/jiFZ4xNrvUUZLBHnJu71CvdN4kj.jpg"
+        "name": "Rose McGowan",
+        "character": "Tatum Riley",
+        "photoUrl": "https://image.tmdb.org/t/p/w500/x8sHWjQ7cWVcHKhqGR09x0Y0tsP.jpg"
       }
     ],
-    "imageURL": "https://image.tmdb.org/t/p/w500/vb7C7sdFdtkSdZCM0rn8ddXBX4I.jpg"
+    "imageURL": "https://image.tmdb.org/t/p/w500/3O3klyyYpAZBBE4n7IngzTomRDp.jpg"
   },
   {
     "_id": "662f30b9f2f787f09d18495b",

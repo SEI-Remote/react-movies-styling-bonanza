@@ -1,5 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
+
+/* resets font size to be 62.5% of the user preference - 
+     in most browser configurations this will be 10px */
+:root {
+  /* font-size: 62.5%; */
+  --darkest: #0A1128;
+  --dark: #001F54;
+  --middle: #034078;
+  --light: #1282A2;
+  --lightest: #FEFCFB;
+}
+
 body {
-  background-color: gray;
+  background-color: var(--dark);
+  /* Use a Google font, if none are available use an available sans-serif font */
+    font-family: "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  
+    /* Alternate Font */
+  /* font-family: "Teachers", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
+  
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  min-height: 100dvh;
 }
 
 /* https://coolors.co/133c55-386fa4-59a5d8-84d2f6-91e5f6 */
@@ -46,4 +81,28 @@ body {
   --middle-light: #A9B4C2;
   --light: #8AF5FF;
   --lightest: #EEF1EF;
+}
+
+.theme-6 {
+  --darkest: #222222;
+  --dark: #6c6f77;
+  --middle: #94C5CC;
+  --light: #B4D2E7;
+  --lightest: #F8F8F8;
+}
+
+.theme-7 {
+  --darkest: #0A1128;
+  --dark: #001F54;
+  --middle: #034078;
+  --light: #1282A2;
+  --lightest: #FEFCFB;
+}
+
+.theme-8 {
+  --darkest: #0B2545;
+  --dark: #13315C;
+  --middle: #134074;
+  --light: #8DA9C4;
+  --lightest: #EEF4ED;
 }
