@@ -15,6 +15,7 @@ html {
      in most browser configurations this will be 10px */
 :root {
   /* font-size: 62.5%; */
+  /* --bg-primary: 'lime'; */
 }
 
 body {
@@ -26,3 +27,4 @@ body {
   /* font-family: "Teachers"; */
   /* font-family: "Libre Franklin"; */
 }
+
