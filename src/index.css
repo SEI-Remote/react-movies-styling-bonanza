@@ -1,5 +1,9 @@
 body {
   background-color: gray;
+
+  /* Two potential font options */
+  /* font-family: "Teachers"; */
+  /* font-family: "Libre Franklin"; */
 }
 
 /* https://coolors.co/133c55-386fa4-59a5d8-84d2f6-91e5f6 */
@@ -42,8 +46,7 @@ body {
 .theme-5 {
   --darkest: #1C2321;
   --dark: #5E6572;
-  --middle-dark: #7D98A1;
-  --middle-light: #A9B4C2;
+  --middle: #7D98A1;
   --light: #8AF5FF;
   --lightest: #EEF1EF;
 }
