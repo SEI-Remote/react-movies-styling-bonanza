@@ -15,11 +15,11 @@ html {
      in most browser configurations this will be 10px */
 :root {
   /* font-size: 62.5%; */
-  --darkest: #0A1128;
-  --dark: #001F54;
-  --middle: #034078;
-  --light: #1282A2;
-  --lightest: #FEFCFB;
+  --darkest: #01161E;
+  --dark: #124559;
+  --middle: #598392;
+  --light: #AEC3B0;
+  --lightest: #EFF6E0;
 }
 
 body {
@@ -105,4 +105,12 @@ body {
   --middle: #134074;
   --light: #8DA9C4;
   --lightest: #EEF4ED;
+}
+
+.theme-9 {
+  --darkest: #01161E;
+  --dark: #124559;
+  --middle: #598392;
+  --light: #AEC3B0;
+  --lightest: #EFF6E0;
 }
