@@ -4,6 +4,7 @@ body {
 
 
 .page-container {
+  min-height: calc(100vh - 65px);
   background-color: var(--bg-secondary);
   display: flex;
   flex-direction: column;

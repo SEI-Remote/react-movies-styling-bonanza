@@ -4,31 +4,36 @@ import NavBar from './components/NavBar/NavBar'
 import Landing from './pages/Landing/Landing'
 import MovieList from './pages/MovieList/MovieList'
 import MovieDetails from './pages/MovieDetails/MovieDetails'
+import { themeData } from './data/themeData'
 
 import './App.css'
 
 function App() {
 
-  const [currentTheme, setCurrentTheme] = useState('theme-a')
+  const [themeIdx, setThemeIdx] = useState(0)
 
   useEffect(() => {
-    let theme = localStorage.getItem('theme')
-    if (!theme) {
-      handleChangeTheme('theme-a')
+    let newThemeIdx = localStorage.getItem('themeIdx')
+    if (!newThemeIdx) {
+      handleChangeThemeIdx(0)
     } else {
-      handleChangeTheme(theme)
+      handleChangeThemeIdx(newThemeIdx)
     }
   }, [])
 
-  const handleChangeTheme = newTheme => {
-    setCurrentTheme(newTheme)
-    localStorage.setItem('theme', newTheme)
+  const handleChangeThemeIdx = newIdx => {
+    setThemeIdx(newIdx)
+    localStorage.setItem('themeIdx', newIdx)
   }
 
   return (
     <>
-    <div className={currentTheme}>
-      <NavBar currentTheme={currentTheme} handleChangeTheme={handleChangeTheme} />
+    <div style={themeData[themeIdx].styles}>
+      <NavBar 
+        themeIdx={themeIdx} 
+        handleChangeThemeIdx={handleChangeThemeIdx} 
+        themes={themeData} 
+      />
       <Routes>
         <Route path='/' element={<Landing />}/>
         <Route path='/movies' element={<MovieList />} />

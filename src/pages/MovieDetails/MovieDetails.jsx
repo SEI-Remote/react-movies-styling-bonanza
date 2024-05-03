@@ -9,7 +9,9 @@ const MovieDetails = () => {
 
   return (
     <>
+    <div className="page-container">
       <h1>{movie.title}</h1>
+    </div>
     </>
   )
 }
