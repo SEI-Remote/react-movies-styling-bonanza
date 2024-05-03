@@ -1,52 +1,5 @@
 body {
-  background-color: gray;
-
   /* Two potential font options */
   /* font-family: "Teachers"; */
   /* font-family: "Libre Franklin"; */
-}
-
-/* https://coolors.co/133c55-386fa4-59a5d8-84d2f6-91e5f6 */
-.theme-1 {
-  --darkest: #133c55;
-  --dark: #386FA4;
-  --middle: #59A5D8;
-  --light: #84D2F6;
-  --lightest: #91E5F6;
-}
-
-/* https://coolors.co/141b41-306bac-6f9ceb-98b9f2-918ef4 */
-.theme-2 {
-  --darkest: #141B41;
-  --dark: #306BAC;
-  --middle: #6F9CEB;
-  --light: #98B9F2;
-  --lightest: #918EF4;
-}
-
-/* https://coolors.co/4f6d7a-c0d6df-dbe9ee-4a6fa5-166088 */
-.theme-3 {
-  --darkest: #166088;
-  --dark: #4F6D7A;
-  --middle: #4A6FA5;
-  --light: #C0D6DF;
-  --lightest: #DBE9EE;
-}
-
-/* https://coolors.co/000100-a1a6b4-94c5cc-b4d2e7-f8f8f8 */
-.theme-4 {
-  --darkest: #000100;
-  --dark: #A1A6B4;
-  --middle: #94C5CC;
-  --light: #B4D2E7;
-  --lightest: #F8F8F8;
-}
-
-/* https://coolors.co/1c2321-5e6572-7d98a1-a9b4c2-8af5ff-eef1ef */
-.theme-5 {
-  --darkest: #1C2321;
-  --dark: #5E6572;
-  --middle: #7D98A1;
-  --light: #8AF5FF;
-  --lightest: #EEF1EF;
 }
