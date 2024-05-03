@@ -139,5 +139,19 @@ export const themeData = [
       '--accent-secondary': '#22007C',
       '--contrast': '#FFFFFF',
     }
+  },
+  {
+    name: "Surprise Me",
+    styles: {
+      '--bg-primary': generateRandomHexColor(),
+      '--bg-secondary': generateRandomHexColor(),
+      '--accent-primary': generateRandomHexColor(),
+      '--accent-secondary': generateRandomHexColor(),
+      '--contrast': generateRandomHexColor(),
+    }
   }
 ]
+
+function generateRandomHexColor() {
+  return `#${Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0')}`;
+}
