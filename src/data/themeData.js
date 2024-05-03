@@ -130,4 +130,14 @@ export const themeData = [
       '--contrast': '#000000',
     }
   },
+  {
+    name: "Deep Blue Sea",
+    styles: {
+      '--bg-primary': '#02010A',
+      '--bg-secondary': '#04052E',
+      '--accent-primary': '#140152',
+      '--accent-secondary': '#22007C',
+      '--contrast': '#FFFFFF',
+    }
+  }
 ]

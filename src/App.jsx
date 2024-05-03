@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     let newThemeIdx = localStorage.getItem('themeIdx')
-    if (!newThemeIdx) {
+    if (!themeData[newThemeIdx]?.styles) {
       handleChangeThemeIdx(0)
     } else {
       handleChangeThemeIdx(newThemeIdx)
