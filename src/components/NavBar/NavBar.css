@@ -1,3 +1,24 @@
 .logo {
   width: 50px;
 }
+
+nav {
+  background-color: var(--bg-primary);
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+nav > a {
+  color: var(--contrast);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+select {
+  font-size: 24px;
+  border-radius: 8px;
+  padding: 5px;
+}

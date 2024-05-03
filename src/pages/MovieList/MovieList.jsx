@@ -5,10 +5,13 @@ import './MovieList.css'
 const MovieList = () => {
   return (
     <>
-      <h1>Movie List</h1>
-      {movies.map(movie =>
-        <MovieCard key={movie._id} movie={movie} />
-      )}
+      <div className="page-container">
+        <div className="card-container">
+          {movies.map(movie =>
+            <MovieCard key={movie._id} movie={movie} />
+          )}
+        </div>
+      </div>
     </>
   )
 }
